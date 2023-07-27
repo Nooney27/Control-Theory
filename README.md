@@ -3,7 +3,7 @@
 
 ### Theory of Pole Placement:
 
-Pole placement is a control technique used to design a feedback controller for a linear time-invariant (LTI) system to achieve specific performance and stability characteristics. The goal is to determine appropriate feedback gains in order to place the closed-loop poles of the system at desired locations in the complex plane. The placement of poles directly affects the system's transient response and stability.
+Pole placement is a control technique used to design a state-feedback controller for a linear time-invariant (LTI) system to achieve specific performance and stability characteristics. The goal is to determine appropriate feedback gains in order to place the closed-loop poles of the system at desired locations in the complex plane. The placement of poles directly affects the system's transient response and stability.
 
 ***Closed-loop poles:***
 The poles of the closed-loop system are the eigenvalues of the matrix Acl, which is obtained by subtracting the product of the state matrix A and the feedback gain matrix K from the original state matrix A.
